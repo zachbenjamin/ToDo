@@ -13,6 +13,7 @@
 		A6B9A74520671D4900EE08EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B9A74420671D4900EE08EE /* Assets.xcassets */; };
 		A6B9A74820671D4900EE08EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B9A74620671D4900EE08EE /* LaunchScreen.storyboard */; };
 		A6BB91B0206C8B71000FAF92 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6BB91AE206C8B71000FAF92 /* DataModel.xcdatamodeld */; };
+		A6D1485B2071DB84006BD056 /* CategoryViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1485A2071DB84006BD056 /* CategoryViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6B9A74720671D4900EE08EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B9A74920671D4900EE08EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6BB91AF206C8B71000FAF92 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		A6D1485A2071DB84006BD056 /* CategoryViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				A6B9A73D20671D4900EE08EE /* AppDelegate.swift */,
 				A6B9A73F20671D4900EE08EE /* TodoListViewController.swift */,
+				A6D1485A2071DB84006BD056 /* CategoryViewControllerTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				A6B9A74020671D4900EE08EE /* TodoListViewController.swift in Sources */,
 				A6BB91B0206C8B71000FAF92 /* DataModel.xcdatamodeld in Sources */,
+				A6D1485B2071DB84006BD056 /* CategoryViewControllerTableViewController.swift in Sources */,
 				A6B9A73E20671D4900EE08EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
